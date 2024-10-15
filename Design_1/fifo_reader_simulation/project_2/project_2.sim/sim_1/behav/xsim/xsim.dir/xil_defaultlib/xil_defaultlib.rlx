@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/fifo_reader_simulation/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1723010646,verilog,,,,glbl,,,,,,,,
+C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/fifo_reader_simulation/project_2/project_2.srcs/sim_1/new/testbench.v,1723868223,verilog,,,,tb_read_from_fifo,,,,,,,,
+C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/fifo_reader_simulation/project_2/project_2.srcs/sources_1/new/shift_out.v,1723875324,verilog,,C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/fifo_reader_simulation/project_2/project_2.srcs/sim_1/new/testbench.v,,edge_detector;read_from_fifo,,,,,,,,

@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/ec67/hdl" --include "../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/b28c/hdl" --include "../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/3136/hdl/verilog" --include "../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/3242" --include "C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../project_1.srcs/sources_1/new/printer_driver.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_processing_system7_0_0/sim/dma_axis_ip_example_processing_system7_0_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xbar_0/sim/dma_axis_ip_example_xbar_0.v" \
+"../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/3136/hdl/verilog/example_control_s_axi.v" \
+"../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/3136/hdl/verilog/example_flow_control_loop_pipe.v" \
+"../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/3136/hdl/verilog/example_hls_deadlock_idx0_monitor.v" \
+"../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/3136/hdl/verilog/example_regslice_both.v" \
+"../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/3136/hdl/verilog/example.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_example_0_0/sim/dma_axis_ip_example_example_0_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0_clk_wiz.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_clk_wiz_0_0/dma_axis_ip_example_clk_wiz_0_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xlconstant_0_0/sim/dma_axis_ip_example_xlconstant_0_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_fifo_generator_0_0/sim/dma_axis_ip_example_fifo_generator_0_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_util_vector_logic_0_3/sim/dma_axis_ip_example_util_vector_logic_0_3.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_read_from_fifo_0_0/sim/dma_axis_ip_example_read_from_fifo_0_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_xlslice_0_0/sim/dma_axis_ip_example_xlslice_0_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_system_ila_0_2/bd_0/sim/bd_843b.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_system_ila_0_2/bd_0/ip/ip_0/sim/bd_843b_ila_lib_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_system_ila_0_2/sim/dma_axis_ip_example_system_ila_0_2.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_0/sim/dma_axis_ip_example_auto_pc_0.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_auto_pc_1/sim/dma_axis_ip_example_auto_pc_1.v" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/sim/dma_axis_ip_example.v" \
+"../../../../project_1.gen/sources_1/bd/dma_axis_ip_example/hdl/dma_axis_ip_example_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

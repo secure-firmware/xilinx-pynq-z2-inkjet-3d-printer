@@ -1,0 +1,18 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_read_from_fifo_behav xil_defaultlib.tb_read_from_fifo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/fifo_reader_simulation/project_2/project_2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/fifo_reader_simulation/project_2/project_2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.edge_detector
+Compiling module xil_defaultlib.read_from_fifo
+Compiling module xil_defaultlib.tb_read_from_fifo
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_read_from_fifo_behav

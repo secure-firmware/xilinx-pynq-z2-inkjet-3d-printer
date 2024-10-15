@@ -1,0 +1,432 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Aug 15 19:20:47 2024
+# Process ID: 21616
+# Current directory: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_example_0_0_synth_1
+# Command line: vivado.exe -log dma_axis_ip_example_example_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_axis_ip_example_example_0_0.tcl
+# Log file: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_example_0_0_synth_1/dma_axis_ip_example_example_0_0.vds
+# Journal file: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_example_0_0_synth_1\vivado.jou
+# Running On        :workstation
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Xeon(R) W-2135 CPU @ 3.70GHz
+# CPU Frequency     :3696 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :51170 MB
+# Swap memory       :3221 MB
+# Total Virtual     :54391 MB
+# Available Virtual :31408 MB
+#-----------------------------------------------------------
+source dma_axis_ip_example_example_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 514.215 ; gain = 198.254
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/HLS'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dma_axis_ip_example_example_0_0
+Command: synth_design -top dma_axis_ip_example_example_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21940
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1403.156 ; gain = 448.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dma_axis_ip_example_example_0_0' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_example_0_0/synth/dma_axis_ip_example_example_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'example' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example.v:9]
+INFO: [Synth 8-6157] synthesizing module 'example_control_s_axi' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_control_s_axi.v:9]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_control_s_axi.v:197]
+INFO: [Synth 8-6155] done synthesizing module 'example_control_s_axi' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_control_s_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'example_regslice_both' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'example_regslice_both' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'example_regslice_both__parameterized0' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'example_regslice_both__parameterized0' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'example_regslice_both__parameterized1' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'example_regslice_both__parameterized1' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'example_regslice_both__parameterized2' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'example_regslice_both__parameterized2' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'example_regslice_both__parameterized3' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'example_regslice_both__parameterized3' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'example_regslice_both__parameterized4' [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'example_regslice_both__parameterized4' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'example' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axis_ip_example_example_0_0' (0#1) [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_example_0_0/synth/dma_axis_ip_example_example_0_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ipshared/bc52/hdl/verilog/example_control_s_axi.v:254]
+WARNING: [Synth 8-7129] Port AWADDR[1] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AWADDR[0] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[31] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[30] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[29] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[28] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[27] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[26] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[25] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[24] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[23] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[22] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[21] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[20] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[19] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[18] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[17] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[16] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[15] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[14] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[13] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[12] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[11] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[10] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[9] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[8] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[6] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[5] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[4] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[3] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[2] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WSTRB[3] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WSTRB[2] in module example_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WSTRB[1] in module example_control_s_axi is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1524.539 ; gain = 569.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1524.539 ; gain = 569.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1524.539 ; gain = 569.656
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1524.539 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_example_0_0/constraints/example_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.gen/sources_1/bd/dma_axis_ip_example/ip/dma_axis_ip_example_example_0_0/constraints/example_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_example_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_example_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1575.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1581.324 ; gain = 5.465
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_example_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'example_control_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'example_control_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'example_regslice_both'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'example_regslice_both__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'example_regslice_both__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'example_regslice_both__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'example_regslice_both__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'example_regslice_both__parameterized4'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               11
+*
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'example_control_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                               10
+*
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'example_control_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'example_regslice_both'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'example_regslice_both__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'example_regslice_both__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'example_regslice_both__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'example_regslice_both__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'example_regslice_both__parameterized4'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               13 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 10    
+	                1 Bit    Registers := 24    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 5     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 72    
+	   3 Input    2 Bit        Muxes := 21    
+	   4 Input    2 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 25    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s_axi_control_AWADDR[1] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_AWADDR[0] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[31] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[30] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[29] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[28] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[27] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[26] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[25] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[24] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[23] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[22] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[21] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[20] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[19] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[18] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[17] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[16] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[15] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[14] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[13] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[12] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[11] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[10] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[9] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[8] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[6] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[5] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[4] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[3] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WDATA[2] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WSTRB[3] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WSTRB[2] in module example is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_control_WSTRB[1] in module example is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (control_s_axi_U/FSM_onehot_wstate_reg[0]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (control_s_axi_U/FSM_onehot_rstate_reg[0]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_keep_V_U/FSM_sequential_state_reg[1]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_keep_V_U/FSM_sequential_state_reg[0]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_strb_V_U/FSM_sequential_state_reg[1]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_strb_V_U/FSM_sequential_state_reg[0]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_user_V_U/FSM_sequential_state_reg[1]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_user_V_U/FSM_sequential_state_reg[0]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_id_V_U/FSM_sequential_state_reg[1]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_id_V_U/FSM_sequential_state_reg[0]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_dest_V_U/FSM_sequential_state_reg[1]) is unused and will be removed from module example.
+WARNING: [Synth 8-3332] Sequential element (regslice_both_A_V_dest_V_U/FSM_sequential_state_reg[0]) is unused and will be removed from module example.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:36 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:36 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:43 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:43 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:43 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:43 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:43 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:43 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |    13|
+|3     |LUT3 |     9|
+|4     |LUT4 |    54|
+|5     |LUT5 |    13|
+|6     |LUT6 |    29|
+|7     |FDRE |   147|
+|8     |FDSE |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:43 . Memory (MB): peak = 1581.324 ; gain = 626.441
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 47 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 1581.324 ; gain = 569.656
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:43 . Memory (MB): peak = 1581.324 ; gain = 626.441
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1581.324 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1581.324 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 91f391ce
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 82 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:52 . Memory (MB): peak = 1581.324 ; gain = 1053.070
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1581.324 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_example_0_0_synth_1/dma_axis_ip_example_example_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP dma_axis_ip_example_example_0_0, cache-ID = 7fb37e01706f2b35
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1581.324 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_example_0_0_synth_1/dma_axis_ip_example_example_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file dma_axis_ip_example_example_0_0_utilization_synth.rpt -pb dma_axis_ip_example_example_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 15 19:21:53 2024...

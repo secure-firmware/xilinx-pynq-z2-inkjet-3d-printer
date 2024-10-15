@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_axi_dma_0/sim/dma_axis_ip_example_axi_dma_0.vhd" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_rst_ps7_0_100M_0/sim/dma_axis_ip_example_rst_ps7_0_100M_0.vhd" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_proc_sys_reset_0_0/sim/dma_axis_ip_example_proc_sys_reset_0_0.vhd" \
+"../../../../project_1.ip_user_files/bd/dma_axis_ip_example/ip/dma_axis_ip_example_c_counter_binary_0_0/sim/dma_axis_ip_example_c_counter_binary_0_0.vhd" \
+
+# Do not sort compile order
+nosort

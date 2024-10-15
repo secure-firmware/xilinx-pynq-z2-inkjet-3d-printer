@@ -1,0 +1,44 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "example",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "example"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/HLS/MP113_DMA/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "example",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "example"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/HLS/MP113_DMA/solution1/csynth.tcl",
+    "sourceLine": 15,
+    "success": true
+  }
+]

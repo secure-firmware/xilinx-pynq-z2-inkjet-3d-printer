@@ -1,0 +1,120 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.574876",
+   "Default View_TopLeft":"-304,-162",
+   "ExpandedHierarchyInLayout":"",
+   "comment_0":"Button 0 fires printhead while pressed. 
+Button 1 resets encoder position
+SW0 enables the encoder clock signal",
+   "commentid":"comment_0|",
+   "font_comment_0":"8",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 13 -x 4210 -y 640 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 13 -x 4210 -y 670 -defaultsOSRD
+preplace port port-id_ENC_CHA -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_ENC_CHB -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port port-id_BTN0 -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port port-id_BTN1 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port port-id_SW0 -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port port-id_BTN2 -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port port-id_BTN3 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port port-id_SW1 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_ENC_CHB_ALT -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace port port-id_ENC_CHA_ALT -pg 1 -lvl 0 -x 0 -y 250 -defaultsOSRD
+preplace portBus PRINT -pg 1 -lvl 13 -x 4210 -y 90 -defaultsOSRD
+preplace portBus RESETn -pg 1 -lvl 13 -x 4210 -y 1310 -defaultsOSRD
+preplace portBus LED0 -pg 1 -lvl 13 -x 4210 -y 1280 -defaultsOSRD
+preplace portBus ENABLE -pg 1 -lvl 13 -x 4210 -y 1250 -defaultsOSRD
+preplace portBus DIN -pg 1 -lvl 13 -x 4210 -y 60 -defaultsOSRD
+preplace portBus CLOCK -pg 1 -lvl 13 -x 4210 -y 120 -defaultsOSRD
+preplace portBus LED1 -pg 1 -lvl 13 -x 4210 -y 1220 -defaultsOSRD
+preplace portBus BUSYn -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace portBus FAULTn -pg 1 -lvl 0 -x 0 -y 1220 -defaultsOSRD
+preplace inst axi_dma -pg 1 -lvl 2 -x 550 -y 960 -defaultsOSRD
+preplace inst axi_mem_intercon_1 -pg 1 -lvl 3 -x 920 -y 690 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 1350 -y 700 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 1 -x 200 -y 740 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 5 -x 1770 -y 380 -defaultsOSRD
+preplace inst example_0 -pg 1 -lvl 3 -x 920 -y 1080 -defaultsOSRD
+preplace inst clk_5M -pg 1 -lvl 6 -x 2060 -y 440 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 12 -x 4020 -y 1280 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 12 -x 4020 -y 900 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 11 -x 3540 -y 920 -defaultsOSRD
+preplace inst read_from_fifo_0 -pg 1 -lvl 11 -x 3540 -y 210 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 9 -x 2850 -y 530 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 7 -x 2250 -y 120 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 8 -x 2500 -y 120 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 12 -x 4020 -y 360 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 8 -x 2500 -y 230 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -x 550 -y 770 -defaultsOSRD
+preplace inst Quad_0 -pg 1 -lvl 9 -x 2850 -y 240 -defaultsOSRD
+preplace inst PRINT_RESET -pg 1 -lvl 2 -x 550 -y 450 -defaultsOSRD
+preplace inst util_vector_logic_5 -pg 1 -lvl 10 -x 3180 -y 570 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 9 -x 2850 -y 70 -defaultsOSRD
+preplace inst util_vector_logic_3 -pg 1 -lvl 10 -x 3180 -y 240 -defaultsOSRD
+preplace netloc BTN1_1 1 0 8 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ
+preplace netloc BUSYn_1 1 0 12 NJ 280 NJ 280 NJ 280 NJ 280 NJ 280 NJ 280 NJ 280 2340J 310 2660J 330 NJ 330 3360 370 3840J
+preplace netloc ENC_CHA_1 1 0 12 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 2360J 300 2670 380 NJ 380 NJ 380 NJ
+preplace netloc ENC_CHB_1 1 0 12 NJ 370 NJ 370 NJ 370 1140J 480 NJ 480 1960J 370 NJ 370 NJ 370 2680 400 NJ 400 NJ 400 NJ
+preplace netloc FAULTn_1 1 0 13 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ 1220 NJ
+preplace netloc Quad_0_count 1 2 10 710 510 NJ 510 NJ 510 NJ 510 NJ 510 NJ 510 2670J 420 3030 410 NJ 410 3760J
+preplace netloc axi_gpio_1_gpio_io_o 1 2 8 740 520 NJ 520 1590J 540 NJ 540 NJ 540 NJ 540 2640J 630 3040J
+preplace netloc c_counter_binary_0_Q 1 7 1 NJ 120
+preplace netloc data_out 1 11 2 3840 60 NJ
+preplace netloc data_out_clk 1 11 2 3800 120 NJ
+preplace netloc data_out_valid 1 11 1 3770 240n
+preplace netloc data_out_valid_delayed 1 11 1 3740 260n
+preplace netloc example_0_fifo_out_din 1 3 9 1130 850 NJ 850 NJ 850 NJ 850 NJ 850 NJ 850 NJ 850 NJ 850 3830J
+preplace netloc example_0_fifo_out_write 1 3 9 1140 860 NJ 860 NJ 860 NJ 860 NJ 860 NJ 860 NJ 860 NJ 860 NJ
+preplace netloc fifo_generator_0_dout 1 10 2 3380 430 3720
+preplace netloc fifo_generator_0_empty 1 10 2 3370 440 3710
+preplace netloc fifo_generator_0_full 1 10 2 3380 820 NJ
+preplace netloc fire 1 11 2 3780 90 NJ
+preplace netloc proc_sys_reset_0_peripheral_reset 1 9 1 3020 530n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 12 50 960 390 610 720 880 1120 470 1580 500 1970 520 NJ 520 NJ 520 2650 340 NJ 340 NJ 340 3790
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 4 5 1600 530 NJ 530 NJ 530 NJ 530 2680J
+preplace netloc rd_clk 1 6 6 2160 430 NJ 430 2660 430 NJ 430 3330 350 3820
+preplace netloc rd_en 1 11 1 3750 140n
+preplace netloc read_count_state 1 11 1 3810 220n
+preplace netloc reading_state 1 11 1 3830 200n
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 6 40 970 370 1060 730 490 NJ 490 NJ 490 1950
+preplace netloc rst_ps7_0_100M_peripheral_reset 1 5 7 1950J 360 NJ 360 2350 360 2640J 410 3020J 420 NJ 420 3730J
+preplace netloc util_vector_logic_0_Res 1 3 9 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 3710
+preplace netloc util_vector_logic_1_Res 1 8 1 N 230
+preplace netloc util_vector_logic_5_Res 1 10 2 3350 570 3840
+preplace netloc xlconstant_0_dout 1 12 1 4190J 1250n
+preplace netloc xlslice_0_Dout1 1 10 2 3340 360 3760J
+preplace netloc xlslice_0_Dout 1 8 1 2680 80n
+preplace netloc SW1_1 1 0 9 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ
+preplace netloc Quad_0_pos_changed 1 9 1 N 250
+preplace netloc util_vector_logic_2_Res 1 9 1 3040 70n
+preplace netloc axi_dma_M_AXIS_MM2S 1 2 1 710 950n
+preplace netloc axi_dma_M_AXI_MM2S 1 2 1 740 590n
+preplace netloc axi_mem_intercon_1_M00_AXI 1 3 1 N 670
+preplace netloc axi_mem_intercon_1_M01_AXI 1 3 1 1100 650n
+preplace netloc axi_mem_intercon_1_M02_AXI 1 3 1 1110 690n
+preplace netloc processing_system7_0_DDR 1 4 9 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 4 9 1570J 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 0 5 60 530 NJ 530 NJ 530 NJ 530 1560
+preplace netloc processing_system7_0_M_AXI_GP1 1 0 5 60 950 380J 870 NJ 870 NJ 870 1560
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 1 360 710n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 1 2 350 1050 NJ
+preplace netloc ps7_0_axi_periph_M02_AXI 1 1 1 N 750
+preplace netloc ps7_0_axi_periph_M03_AXI 1 1 1 340 430n
+preplace cgraphic comment_0 place left -147 1125 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 0 200 550 920 1350 1770 2060 2250 2500 2850 3180 3540 4020 4210
+pagesize -pg 1 -db -bbox -sgen -140 0 4340 1340
+"
+}
+{
+   """"""""""""da_axi4_cnt"""""""""""":"4",
+   """"""""""""da_board_cnt"""""""""""":"2",
+   """"""""""""da_clkrst_cnt"""""""""""":"2",
+   """"""""""da_axi4_cnt"""""""""":"1",
+   """"""""""da_clkrst_cnt"""""""""":"1",
+   """da_axi4_cnt""":"1"
+}
+{
+   "/comment_0":"comment_0"
+}

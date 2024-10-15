@@ -1,0 +1,15 @@
+{
+    "0": {
+        "name": "example",
+        "file": "example.cpp",
+        "fileloc": "45",
+        "instructions": "76",
+        "total_instructions": "76",
+        "calls": "",
+        "basicblocks": "20",
+        "loops": {
+            "L": "1",
+            "N": "4"
+        }
+    }
+}

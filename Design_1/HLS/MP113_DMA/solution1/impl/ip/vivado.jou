@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Aug 15 19:17:34 2024
+# Process ID: 17236
+# Current directory: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/HLS/MP113_DMA/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/HLS/MP113_DMA/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/HLS/MP113_DMA/solution1/impl/ip\vivado.jou
+# Running On        :workstation
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Xeon(R) W-2135 CPU @ 3.70GHz
+# CPU Frequency     :3696 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :51170 MB
+# Swap memory       :3221 MB
+# Total Virtual     :54391 MB
+# Available Virtual :31767 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

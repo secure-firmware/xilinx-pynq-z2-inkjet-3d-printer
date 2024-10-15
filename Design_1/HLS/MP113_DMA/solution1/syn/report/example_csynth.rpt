@@ -1,0 +1,187 @@
+
+
+================================================================
+== Vitis HLS Report for 'example'
+================================================================
+* Date:           Thu Aug 15 19:17:04 2024
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        MP113_DMA
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  3.477 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_58_1   |        ?|        ?|         ?|          -|          -|     ?|        no|
+        | + VITIS_LOOP_75_3  |        ?|        ?|         1|          -|          -|     ?|        no|
+        | + VITIS_LOOP_75_3  |        ?|        ?|         1|          -|          -|     ?|        no|
+        | + VITIS_LOOP_75_3  |        ?|        ?|         1|          -|          -|     ?|        no|
+        | + VITIS_LOOP_75_3  |        ?|        ?|         1|          -|          -|     ?|        no|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     16|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        0|    -|      36|     40|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|    150|    -|
+|Register         |        -|    -|      50|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|      86|    206|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-----------------+---------------+---------+----+----+----+-----+
+    |     Instance    |     Module    | BRAM_18K| DSP| FF | LUT| URAM|
+    +-----------------+---------------+---------+----+----+----+-----+
+    |control_s_axi_U  |control_s_axi  |        0|   0|  36|  40|    0|
+    +-----------------+---------------+---------+----+----+----+-----+
+    |Total            |               |        0|   0|  36|  40|    0|
+    +-----------------+---------------+---------+----+----+----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |          Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |ap_block_state11                 |       and|   0|  0|   2|           1|           1|
+    |ap_block_state5                  |       and|   0|  0|   2|           1|           1|
+    |ap_block_state7                  |       and|   0|  0|   2|           1|           1|
+    |ap_block_state9                  |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op54_write_state5   |        or|   0|  0|   2|           1|           1|
+    |ap_predicate_op64_write_state7   |        or|   0|  0|   2|           1|           1|
+    |ap_predicate_op74_write_state9   |        or|   0|  0|   2|           1|           1|
+    |ap_predicate_op84_write_state11  |        or|   0|  0|   2|           1|           1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |Total                            |          |   0|  0|  16|           8|           8|
+    +---------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------+----+-----------+-----+-----------+
+    |        Name        | LUT| Input Size| Bits| Total Bits|
+    +--------------------+----+-----------+-----+-----------+
+    |A_TDATA_blk_n       |   9|          2|    1|          2|
+    |STATUS              |  42|          8|   32|        256|
+    |ap_NS_fsm           |  65|         14|    1|         14|
+    |fifo_out_blk_n      |   9|          2|    1|          2|
+    |fifo_out_din_local  |  25|          5|    8|         40|
+    +--------------------+----+-----------+-----+-----------+
+    |Total               | 150|         31|   43|        314|
+    +--------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-----------------------------+----+----+-----+-----------+
+    |             Name            | FF | LUT| Bits| Const Bits|
+    +-----------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                    |  13|   0|   13|          0|
+    |latest_data_array_1_reg_200  |   8|   0|    8|          0|
+    |latest_data_array_2_reg_205  |   8|   0|    8|          0|
+    |latest_data_array_3_reg_210  |   8|   0|    8|          0|
+    |latest_data_array_reg_195    |   8|   0|    8|          0|
+    |tmp_2_reg_222                |   1|   0|    1|          0|
+    |tmp_4_reg_229                |   1|   0|    1|          0|
+    |tmp_6_reg_236                |   1|   0|    1|          0|
+    |tmp_last_reg_191             |   1|   0|    1|          0|
+    |tmp_reg_215                  |   1|   0|    1|          0|
+    +-----------------------------+----+----+-----+-----------+
+    |Total                        |  50|   0|   50|          0|
+    +-----------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+--------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  | Source Object|    C Type    |
++-----------------------+-----+-----+------------+--------------+--------------+
+|s_axi_control_AWVALID  |   in|    1|       s_axi|       control|   return void|
+|s_axi_control_AWREADY  |  out|    1|       s_axi|       control|   return void|
+|s_axi_control_AWADDR   |   in|    4|       s_axi|       control|   return void|
+|s_axi_control_WVALID   |   in|    1|       s_axi|       control|   return void|
+|s_axi_control_WREADY   |  out|    1|       s_axi|       control|   return void|
+|s_axi_control_WDATA    |   in|   32|       s_axi|       control|   return void|
+|s_axi_control_WSTRB    |   in|    4|       s_axi|       control|   return void|
+|s_axi_control_ARVALID  |   in|    1|       s_axi|       control|   return void|
+|s_axi_control_ARREADY  |  out|    1|       s_axi|       control|   return void|
+|s_axi_control_ARADDR   |   in|    4|       s_axi|       control|   return void|
+|s_axi_control_RVALID   |  out|    1|       s_axi|       control|   return void|
+|s_axi_control_RREADY   |   in|    1|       s_axi|       control|   return void|
+|s_axi_control_RDATA    |  out|   32|       s_axi|       control|   return void|
+|s_axi_control_RRESP    |  out|    2|       s_axi|       control|   return void|
+|s_axi_control_BVALID   |  out|    1|       s_axi|       control|   return void|
+|s_axi_control_BREADY   |   in|    1|       s_axi|       control|   return void|
+|s_axi_control_BRESP    |  out|    2|       s_axi|       control|   return void|
+|ap_clk                 |   in|    1|  ap_ctrl_hs|       example|  return value|
+|ap_rst_n               |   in|    1|  ap_ctrl_hs|       example|  return value|
+|interrupt              |  out|    1|  ap_ctrl_hs|       example|  return value|
+|A_TDATA                |   in|   32|        axis|    A_V_data_V|       pointer|
+|A_TVALID               |   in|    1|        axis|    A_V_dest_V|       pointer|
+|A_TREADY               |  out|    1|        axis|    A_V_dest_V|       pointer|
+|A_TDEST                |   in|    6|        axis|    A_V_dest_V|       pointer|
+|A_TKEEP                |   in|    4|        axis|    A_V_keep_V|       pointer|
+|A_TSTRB                |   in|    4|        axis|    A_V_strb_V|       pointer|
+|A_TUSER                |   in|    2|        axis|    A_V_user_V|       pointer|
+|A_TLAST                |   in|    1|        axis|    A_V_last_V|       pointer|
+|A_TID                  |   in|    5|        axis|      A_V_id_V|       pointer|
+|fifo_out_din           |  out|    8|     ap_fifo|      fifo_out|       pointer|
+|fifo_out_full_n        |   in|    1|     ap_fifo|      fifo_out|       pointer|
+|fifo_out_write         |  out|    1|     ap_fifo|      fifo_out|       pointer|
+|STATUS                 |  out|   32|      ap_vld|        STATUS|       pointer|
+|STATUS_ap_vld          |  out|    1|      ap_vld|        STATUS|       pointer|
+|COUNTER                |  out|   32|      ap_vld|       COUNTER|       pointer|
+|COUNTER_ap_vld         |  out|    1|      ap_vld|       COUNTER|       pointer|
++-----------------------+-----+-----+------------+--------------+--------------+
+

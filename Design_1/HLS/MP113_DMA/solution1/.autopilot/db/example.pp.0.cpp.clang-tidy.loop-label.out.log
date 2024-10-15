@@ -1,0 +1,40 @@
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:1314:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:1314:7: note: FIX-IT applied suggested code changes
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:2288:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:2288:5: note: FIX-IT applied suggested code changes
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:2302:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:2302:5: note: FIX-IT applied suggested code changes
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:2316:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:2316:5: note: FIX-IT applied suggested code changes
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:3945:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:3945:7: note: FIX-IT applied suggested code changes
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:9780:2: warning: Added loop label VITIS_LOOP_58_1:   [xilinx-label-all-loops]
+ while(1)
+ ^~~~~
+ VITIS_LOOP_58_1: 
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:9780:2: note: FIX-IT applied suggested code changes
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:9794:3: warning: Added loop label VITIS_LOOP_72_2:   [xilinx-label-all-loops]
+  while(counter < 4)
+  ^~~~~
+  VITIS_LOOP_72_2: 
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:9794:3: note: FIX-IT applied suggested code changes
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:9797:4: warning: Added loop label VITIS_LOOP_75_3:   [xilinx-label-all-loops]
+   while(fifo_out.full())
+   ^~~~~
+   VITIS_LOOP_75_3: 
+C:\Users\w\inkjet_3d\MP113_FPGA\Design_1\HLS\MP113_DMA\solution1\.autopilot\db\example.pp.0.cpp:9797:4: note: FIX-IT applied suggested code changes

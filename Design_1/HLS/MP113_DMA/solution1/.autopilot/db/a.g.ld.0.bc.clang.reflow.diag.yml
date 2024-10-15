@@ -1,0 +1,356 @@
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 72, Column: 20 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_72_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: example.cpp, Line: 49, Column: 0 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_72_2
+  - String:          ''' ('
+  - LoopLoc:         'example.cpp:72:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          example
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ' '
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ' '
+  - Function:        'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<8>, 0>&, int volatile*, int volatile*)'
+    DebugLoc:        { File: example.cpp, Line: 49, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ' '
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ' '
+  - Function:        'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<8>, 0>&, int volatile*, int volatile*)'
+    DebugLoc:        { File: example.cpp, Line: 49, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ' '
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ' '
+  - Function:        'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<8>, 0>&, int volatile*, int volatile*)'
+    DebugLoc:        { File: example.cpp, Line: 49, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ' '
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ' '
+  - Function:        'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<8>, 0>&, int volatile*, int volatile*)'
+    DebugLoc:        { File: example.cpp, Line: 49, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: example.cpp, Line: 58, Column: 19 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_58_1
+  - String:          ' '
+  - LoopLoc:         'example.cpp:58:19'
+  - String:          ' '
+  - Function:        'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<8>, 0>&, int volatile*, int volatile*)'
+    DebugLoc:        { File: example.cpp, Line: 49, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          '''('
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          '''('
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          '''('
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          '''('
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: example.cpp, Line: 58, Column: 19 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_58_1
+  - String:          '''('
+  - LoopLoc:         'example.cpp:58:19'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFailFullyUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Cannot unroll loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' ('
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          example
+  - String:          ''' as it has a variable trip count'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFailFullyUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Cannot unroll loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' ('
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          example
+  - String:          ''' as it has a variable trip count'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFailFullyUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Cannot unroll loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' ('
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          example
+  - String:          ''' as it has a variable trip count'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFailFullyUnroll
+DebugLoc:        { File: example.cpp, Line: 75, Column: 21 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEERNS0_I7ap_uintILi8EELi0EEEPViSC_
+Args:            
+  - String:          'Cannot unroll loop '''
+  - LoopName:        VITIS_LOOP_75_3
+  - String:          ''' ('
+  - LoopLoc:         'example.cpp:75:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          example
+  - String:          ''' as it has a variable trip count'
+...

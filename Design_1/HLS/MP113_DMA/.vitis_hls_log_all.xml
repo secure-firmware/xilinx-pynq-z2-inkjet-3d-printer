@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:17:04.770+1000" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive for loop 'VITIS_LOOP_58_1': contains subloop(s) that are not unrolled or flattened." projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:17:04.585+1000" type="Warning"/>
+        <logs message="WARNING: [HLS 214-187] Cannot unroll loop 'VITIS_LOOP_75_3' (example.cpp:75:21) in function 'example' as it has a variable trip count (example.cpp:75:21)" projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:17:03.782+1000" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -location' command is deprecated and will be removed in a future release." projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:16:47.259+1000" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -name' command is deprecated and will be removed in a future release." projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:16:47.234+1000" type="Warning"/>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/HLS/MP113_DMA/solution1/csynth.tcl'" projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:16:43.210+1000" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -location' command is deprecated and will be removed in a future release." projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:17:30.460+1000" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -name' command is deprecated and will be removed in a future release." projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:17:30.430+1000" type="Warning"/>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/HLS/MP113_DMA/solution1/export.tcl'" projectName="MP113_DMA" solutionName="solution1" date="2024-08-15T19:17:28.274+1000" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

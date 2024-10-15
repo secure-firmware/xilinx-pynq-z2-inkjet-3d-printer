@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Aug 23 13:22:03 2024
+# Process ID: 33140
+# Current directory: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_read_from_fifo_0_0_synth_1
+# Command line: vivado.exe -log dma_axis_ip_example_read_from_fifo_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_axis_ip_example_read_from_fifo_0_0.tcl
+# Log file: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_read_from_fifo_0_0_synth_1/dma_axis_ip_example_read_from_fifo_0_0.vds
+# Journal file: C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.runs/dma_axis_ip_example_read_from_fifo_0_0_synth_1\vivado.jou
+# Running On        :workstation
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Xeon(R) W-2135 CPU @ 3.70GHz
+# CPU Frequency     :3696 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :51170 MB
+# Swap memory       :3221 MB
+# Total Virtual     :54391 MB
+# Available Virtual :23816 MB
+#-----------------------------------------------------------
+source dma_axis_ip_example_read_from_fifo_0_0.tcl -notrace

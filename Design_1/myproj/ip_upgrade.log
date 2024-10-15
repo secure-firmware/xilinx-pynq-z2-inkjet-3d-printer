@@ -1,0 +1,642 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Aug 15 19:19:07 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113687136) to (Rev. 2113691597)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Aug 12 16:57:08 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113679888) to (Rev. 2113687136)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 's_axi_control_ARADDR'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Wed Aug  7 16:10:43 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113678530) to (Rev. 2113679888)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 'A_TDEST'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Wed Aug  7 13:36:14 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113666973) to (Rev. 2113678530)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 'A_TDATA'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 29 16:54:41 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113666936) to (Rev. 2113666973)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'dma_axis_ip_example_example_0_0'.
+
+
+-Upgrade has added interface 'fifo_out' (xilinx.com:interface:acc_fifo_write:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'DATA'
+
+-Upgrade has removed port 'DATA_ap_vld'
+
+-Upgrade has removed port 'FIFO_EMPTY'
+
+-Upgrade has removed port 'FIFO_FULL'
+
+-Upgrade has added port 'fifo_out_din'
+
+-Upgrade has added port 'fifo_out_full_n'
+
+-Upgrade has added port 'fifo_out_write'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 29 16:18:10 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113666834) to (Rev. 2113666936)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'CLK_IN'
+
+-Upgrade has removed port 'CLK_OUT'
+
+-Upgrade has removed port 'CLK_OUT_ap_vld'
+
+-Upgrade has removed port 'COUNTER_OUT'
+
+-Upgrade has removed port 'COUNTER_OUT_ap_vld'
+
+-Upgrade has removed port 'ENCODER_IN'
+
+-Upgrade has removed port 'PRINT'
+
+-Upgrade has removed port 'PRINT_ap_vld'
+
+-Upgrade has added port 'COUNTER'
+
+-Upgrade has added port 'COUNTER_ap_vld'
+
+-Upgrade has added port 'FIFO_EMPTY'
+
+-Upgrade has added port 'FIFO_FULL'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 29 14:35:33 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113666816) to (Rev. 2113666834)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 29 14:17:13 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113666785) to (Rev. 2113666816)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 29 13:46:50 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113666783) to (Rev. 2113666785)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 29 13:44:04 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113666739) to (Rev. 2113666783)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 29 13:00:31 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113665748) to (Rev. 2113666739)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'dma_axis_ip_example_example_0_0'.
+
+
+-Upgrade has added interface 'A' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'A_TDATA'
+
+-Upgrade has added port 'A_TDEST'
+
+-Upgrade has added port 'A_TID'
+
+-Upgrade has added port 'A_TKEEP'
+
+-Upgrade has added port 'A_TLAST'
+
+-Upgrade has added port 'A_TREADY'
+
+-Upgrade has added port 'A_TSTRB'
+
+-Upgrade has added port 'A_TUSER'
+
+-Upgrade has added port 'A_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Jul 28 20:29:00 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113665712) to (Rev. 2113665748)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Jul 28 19:53:16 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113665677) to (Rev. 2113665712)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Jul 28 19:18:24 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113665610) to (Rev. 2113665677)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Jul 28 18:11:20 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113665527) to (Rev. 2113665610)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'dma_axis_ip_example_example_0_0'.
+
+
+-Upgrade has removed interface 'A'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'A_TDATA'
+
+-Upgrade has removed port 'A_TDEST'
+
+-Upgrade has removed port 'A_TID'
+
+-Upgrade has removed port 'A_TKEEP'
+
+-Upgrade has removed port 'A_TLAST'
+
+-Upgrade has removed port 'A_TREADY'
+
+-Upgrade has removed port 'A_TSTRB'
+
+-Upgrade has removed port 'A_TUSER'
+
+-Upgrade has removed port 'A_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Jul 28 16:50:49 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113665522) to (Rev. 2113665527)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'COUNTER_OUT' out differs from original direction in
+
+-Upgraded port 'DATA' out differs from original direction in
+
+-Upgraded port 'PRINT' out differs from original direction in
+
+-Upgrade has added port 'COUNTER_OUT_ap_vld'
+
+-Upgrade has added port 'DATA_ap_vld'
+
+-Upgrade has added port 'PRINT_ap_vld'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Jul 28 16:43:58 2024
+| Host         : workstation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113657344) to (Rev. 2113665522)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'COUNTER_OUT' in differs from original direction out
+
+-Upgraded port 'DATA' in differs from original direction out
+
+-Upgraded port 'PRINT' in differs from original direction out
+
+-Upgrade has removed port 'COUNTER_OUT_ap_vld'
+
+-Upgrade has removed port 'DATA_ap_vld'
+
+-Upgrade has removed port 'PRINT_ap_vld'
+
+-Upgrade has added port 'ENCODER_IN'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 22 23:25:10 2024
+| Host         : DESKTOP-3SACRT7 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113657337) to (Rev. 2113657344)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'counter_i'
+
+-Upgrade has removed port 'counter_o'
+
+-Upgrade has removed port 'counter_o_ap_vld'
+
+-Upgrade has added port 'COUNTER_OUT'
+
+-Upgrade has added port 'COUNTER_OUT_ap_vld'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Jul 22 23:18:38 2024
+| Host         : DESKTOP-3SACRT7 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dma_axis_ip_example_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dma_axis_ip_example_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2113655987) to (Rev. 2113657337)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dma_axis_ip_example_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'counter_i'
+
+-Upgrade has added port 'counter_o'
+
+-Upgrade has added port 'counter_o_ap_vld'
+
+

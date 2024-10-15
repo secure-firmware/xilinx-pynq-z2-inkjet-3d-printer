@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/w/inkjet_3d/MP113_FPGA/Design_1/myproj/project_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="32,213"></ZoomStartTime>
+      <ZoomEndTime time="34,216"></ZoomEndTime>
+      <Cursor1Time time="32,870"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="292"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wave_markers>
+      <marker time="0" label="" />
+      <marker time="10" label="" />
+      <marker time="1000" label="" />
+   </wave_markers>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe11_1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe11_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">probe11_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">Quad_0_count</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe8_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe8_1</obj_property>
+      <obj_property name="ObjectShortName">probe8_1</obj_property>
+      <obj_property name="label">BUSYn</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe1_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe1_1</obj_property>
+      <obj_property name="ObjectShortName">probe1_1</obj_property>
+      <obj_property name="label">rd_clk</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe7_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe7_1</obj_property>
+      <obj_property name="ObjectShortName">probe7_1</obj_property>
+      <obj_property name="label">data_out_clk</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe0_1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe0_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">probe0_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">data_out</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe4_1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe4_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">probe4_1[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">read_count_state</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe13_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe13_1</obj_property>
+      <obj_property name="ObjectShortName">probe13_1</obj_property>
+      <obj_property name="label">data_out_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe14_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe14_1</obj_property>
+      <obj_property name="ObjectShortName">probe14_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">data_out_valid_delayed</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe2_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe2_1</obj_property>
+      <obj_property name="ObjectShortName">probe2_1</obj_property>
+      <obj_property name="label">fire</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe3_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe3_1</obj_property>
+      <obj_property name="ObjectShortName">probe3_1</obj_property>
+      <obj_property name="label">rd_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe5_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe5_1</obj_property>
+      <obj_property name="ObjectShortName">probe5_1</obj_property>
+      <obj_property name="label">reading_state</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe6_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe6_1</obj_property>
+      <obj_property name="ObjectShortName">probe6_1</obj_property>
+      <obj_property name="label">xlslice_0_Dout1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe15_1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe15_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">probe15_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">fifo_generator_0_dout</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_axis_ip_example_i/system_ila_0/inst/probe12_1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dma_axis_ip_example_i/system_ila_0/inst/probe12_1</obj_property>
+      <obj_property name="ObjectShortName">probe12_1</obj_property>
+      <obj_property name="label">rst_ps7_0_100M_peripheral_reset</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
